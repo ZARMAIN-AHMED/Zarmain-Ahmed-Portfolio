@@ -35,8 +35,8 @@ export default function About() {
           <FaLightbulb className="inline-block mr-2 text-yellow-500 transition-colors duration-300" />I’m Zarmain Ahmed, a passionate Frontend Developer and Student Leader at GIAIC, currently pursuing (Agentic AI Software Engineering).
 I specialize in building modern, responsive web interfaces using HTML, CSS, JavaScript, TypeScript, React, Next.js, and Tailwind CSS.
 As a creative UI/UX Designer, I focus on delivering clean, user-friendly designs.
-I'm also learning Python to strengthen my backend and AI skills.
-I'm committed to continuous learning and creating meaningful digital experiences.I have also participated in a hackathon, honing my skills further. Though my course covers IT, starting with full-stack and later advancing to AI, I am currently focused on mastering frontend technologies,
+I&apos;m also learning Python to strengthen my backend and AI skills.
+I&apos;m committed to continuous learning and creating meaningful digital experiences.I have also participated in a hackathon, honing my skills further. Though my course covers IT, starting with full-stack and later advancing to AI, I am currently focused on mastering frontend technologies,
  preparing for more complex AI topics in the future.
 
 . <span className="text-blue-500 hover:text-purple-500 transition-colors duration-300">🚀</span>
