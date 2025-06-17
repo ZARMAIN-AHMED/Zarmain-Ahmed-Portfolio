@@ -9,7 +9,10 @@ import {
   FaHtml5,
   FaFigma,
   FaMobile,
-  FaCode
+  FaCode,
+  FaPython,
+  FaJava,
+  FaBrain
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -25,11 +28,13 @@ const skills = [
   { name: "CSS3", level: "95%", icon: <SiCss3 className="text-blue-500" /> },
   { name: "JavaScript", level: "95%", icon: <SiJavascript className="text-yellow-500" /> },
   { name: "TypeScript", level: "90%", icon: <SiTypescript className="text-blue-600" /> },
-  { name: "React", level: "95%", icon: <FaReact className="text-blue-500" /> },
+  { name: "Python", level: "90%", icon: <FaPython className="text-green-500" /> },
+  { name: "Java", level: "85%", icon: <FaJava className="text-red-500" /> },
   { name: "Next.js", level: "100%", icon: <SiNextdotjs className="text-black dark:text-black" /> },
   { name: "Tailwind CSS", level: "100%", icon: <SiTailwindcss className="text-cyan-500" /> },
   { name: "UI/UX Design", level: "95%", icon: <FaFigma className="text-purple-500" /> },
-  { name: "Frontend Development", level: "100%", icon: <FaCode className="text-green-500" /> },
+  { name: "Agentic AI Systems", level: "85%", icon: <FaBrain className="text-yellow-500" /> },
+  { name: "Full-Stack Development", level: "100%", icon: <FaCode className="text-green-500" /> },
   { name: "Responsive Design", level: "95%", icon: <FaMobile className="text-pink-500" /> }
 ];
 

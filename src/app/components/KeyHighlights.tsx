@@ -1,37 +1,37 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaCode, FaPalette, FaMobile, FaRocket, FaLightbulb } from "react-icons/fa";
+import { FaCode, FaBrain, FaPalette, FaLaptopCode, FaLightbulb } from "react-icons/fa";
 
 const highlights = [
   {
+    icon: <FaBrain className="text-3xl text-yellow-500" />,
+    title: "Agentic AI Engineering",
+    description: "Designing intelligent, context-aware systems using Python and emerging AI paradigms.",
+    emoji: "🧠"
+  },
+  {
     icon: <FaCode className="text-3xl text-blue-500" />,
-    title: "Frontend Development",
-    description: "Expert in building responsive and interactive web applications using modern technologies",
-    emoji: "💻"
+    title: "Full-Stack Development",
+    description: "Building scalable web applications using modern tech like Next.js, TypeScript & Java.",
+    emoji: "🧩"
   },
   {
     icon: <FaPalette className="text-3xl text-purple-500" />,
     title: "UI/UX Design",
-    description: "Creating beautiful and user-friendly interfaces with attention to detail",
+    description: "Crafting clean, accessible, and visually appealing user interfaces with purpose.",
     emoji: "🎨"
   },
   {
-    icon: <FaMobile className="text-3xl text-green-500" />,
-    title: "Responsive Design",
-    description: "Building websites that work perfectly on all devices and screen sizes",
+    icon: <FaLaptopCode className="text-3xl text-green-500" />,
+    title: "Responsive Frontends",
+    description: "Developing responsive, mobile-friendly UIs using Tailwind CSS and HTML/CSS.",
     emoji: "📱"
   },
   {
-    icon: <FaRocket className="text-3xl text-red-500" />,
-    title: "Performance Optimization",
-    description: "Ensuring fast loading times and smooth user experience",
-    emoji: "⚡"
-  },
-  {
-    icon: <FaLightbulb className="text-3xl text-yellow-500" />,
-    title: "Problem Solving",
-    description: "Creative solutions to complex development challenges",
+    icon: <FaLightbulb className="text-3xl text-red-500" />,
+    title: "Creative Problem Solving",
+    description: "Bringing innovation to life through real-world hackathons and team collaboration.",
     emoji: "💡"
   }
 ];
